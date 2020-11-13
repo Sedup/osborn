@@ -31,4 +31,34 @@ body {
   padding: 0;
   font-family: "Roboto-Regular", sans-serif;
 }
+
+a {
+  text-decoration: none;
+  border: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+.header-top {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-top__left {
+  display: flex;
+  align-items: center;
+}
+
+.logo__image {
+  width: 155px;
+}
+
+.slogan {
+  max-width: 275px;
+  font-size: 10px;
+  font-family: "Roboto-Bold";
+}
 /*# sourceMappingURL=style.css.map */
