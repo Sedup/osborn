@@ -35,30 +35,117 @@ body {
 a {
   text-decoration: none;
   border: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .container {
   max-width: 1280px;
+  width: 95%;
   margin: auto;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-.header-top {
+.header-navbar {
   margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 4px 4px rgba(0, 56, 107, 0.05);
 }
 
-.header-top__left {
+.header-navbar__left {
   display: flex;
   align-items: center;
+}
+
+.header-navbar__middle {
+  display: flex;
+  align-items: center;
+}
+
+.header-navbar__right {
+  display: flex;
+  align-items: center;
+}
+
+.header-navbar__bottom--links {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-navbar__bottom--link {
+  padding: 6px 30px;
+  border-radius: 4px;
+  transition: 0.5s linear;
+}
+
+.header-navbar__bottom--link:hover {
+  color: #ffffff;
+  background: #017DC7;
+}
+
+.header-description {
+  position: relative;
+  width: 354px;
+}
+
+.header-icon {
+  margin-right: 8px;
+}
+
+.header-phones-group {
+  display: flex;
+  flex-direction: column;
+  color: #00386B;
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
 }
 
 .logo__image {
   width: 155px;
 }
 
+.divider {
+  width: 2px;
+  height: 20px;
+  margin-left: 12px;
+  margin-right: 12px;
+  background-color: #00386B;
+  display: inline-block;
+}
+
 .slogan {
   max-width: 275px;
   font-size: 10px;
   font-family: "Roboto-Bold";
+  color: #00386B;
+}
+
+.father-link {
+  font-family: "Roboto-Bold";
+  color: #00386B;
+}
+
+.download {
+  color: #ffffff;
+  padding: 6px 42px;
+  background: #00386B;
+  border-radius: 4px;
+}
+
+.hero-content {
+  background: linear-gradient(96.81deg, rgba(255, 255, 255, 0.9) 31.75%, rgba(0, 0, 0, 0) 99.98%, rgba(0, 0, 0, 0) 99.99%), url(../img/robot.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 140px;
+  margin-bottom: 140px;
+  margin-left: 70px;
 }
 /*# sourceMappingURL=style.css.map */
