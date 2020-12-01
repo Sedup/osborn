@@ -407,7 +407,7 @@ li {
 }
 
 .footer-container {
-  padding: 65px 85px 100px 65px;
+  padding: 65px 85px 65px 65px;
   display: flex;
   justify-content: space-between;
 }
@@ -420,11 +420,51 @@ li {
   width: 250px;
 }
 
+.footer-icon {
+  margin-right: 8px;
+}
+
+.footer-phones {
+  display: flex;
+  align-items: start;
+}
+
+.footer-phones__list--item {
+  margin-bottom: 5px;
+}
+
+.footer-links__link {
+  font-size: 18px;
+}
+
+.footer-links__list--item {
+  margin-bottom: 10px;
+}
+
+.footer-phone {
+  font-size: 18px;
+}
+
+.footer-description {
+  margin-top: 10px;
+  margin-left: 23px;
+  margin-bottom: 10px;
+}
+
 .footer-email {
   display: flex;
 }
 
 .footer-form {
   width: 350px;
+}
+
+.footer-privacy {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.privacy-link {
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
