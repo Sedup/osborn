@@ -1,5 +1,15 @@
  <?php include 'header.php'; ?>
 
+  <nav class="breadcrumb">
+    <div class="container">
+      <ul class="breadcrumb-list">
+      <li class="breadcrumb-list__item">
+        Главная
+      </li>
+      </ul>
+    </div>
+  </nav>
+
   <section class="hero">
     <div class="container">
       <div class="hero-content">

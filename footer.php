@@ -2,8 +2,8 @@
     <div class="container">
       <div class="footer-container">
         <div class="footer-logo">
-          <a href="index.html">
-            <img src="img/logo.svg" alt="Logo: osborn" class="footer-logo__image">
+          <a href="/index.php">
+            <img src="/img/logo.svg" alt="Logo: osborn" class="footer-logo__image">
           </a>
         </div>
         <!-- /.footer-logo -->
@@ -32,14 +32,14 @@
         <!-- /.footer-links -->
         <div class="footer-contacts">
           <div class="footer-email">
-            <img src="img/icons/internet-white.svg" alt="Icon: internet" class="footer-icon">
+            <img src="/img/icons/internet-white.svg" alt="Icon: internet" class="footer-icon">
             <a href="https://instruments.zp.ua" class="footer-contacts__link" target="_blank">instruments.zp.ua</a>
           </div>
           <div class="footer-description">
             ООО ПКП “Инструмент Спектр" Официальный дистрибьютор в Украине
           </div>
           <div class="footer-phones">
-            <img src="img/icons/phone-white.svg" alt="Icon: phone" class="footer-icon">
+            <img src="/img/icons/phone-white.svg" alt="Icon: phone" class="footer-icon">
             <ul class="footer-phones__list">
               <li class="footer-phones__list--item">
               <a href="tel:+380617081848" class="footer-phone">061 708 18 48</a>
@@ -71,8 +71,8 @@
   </footer>
   <!-- /.footer -->
 
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="/js/swiper-bundle.min.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 
 </html>

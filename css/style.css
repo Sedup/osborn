@@ -37,6 +37,11 @@ a {
   border: none;
   color: inherit;
   cursor: pointer;
+  transition: 0.5s linear;
+}
+
+a:hover {
+  color: #017DC7;
 }
 
 ul {
@@ -63,6 +68,21 @@ li {
   font-size: 36px;
   line-height: 42px;
   color: #00386B;
+}
+
+.breadcrumb {
+  padding: 18px 0;
+}
+
+.breadcrumb-list {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.breadcrumb-list__item:not(:last-child)::after {
+  content: '>';
+  margin-right: 4px;
 }
 
 .header-navbar {
@@ -407,7 +427,7 @@ li {
 }
 
 .footer-container {
-  padding: 65px 85px 65px 65px;
+  padding: 65px 0 65px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -466,5 +486,38 @@ li {
 
 .privacy-link {
   font-size: 20px;
+}
+
+.osborn-history__photo {
+  width: 100%;
+}
+
+.osborn-history__switch {
+  padding: 80px 0 65px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.osborn-history__button {
+  font-family: Roboto-Bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #323232;
+  opacity: 0.5;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.osborn-history__divider {
+  font-size: 75px;
+  line-height: 42px;
+  color: #00386B;
+}
+
+.history-button__active {
+  color: #00386B;
+  opacity: 1;
 }
 /*# sourceMappingURL=style.css.map */
