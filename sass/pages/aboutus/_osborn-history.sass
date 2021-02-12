@@ -20,8 +20,97 @@
       font-size: 75px
       line-height: 42px
       color: $primary
+  &-today
+    &__title
+      margin-bottom: 55px
+      font-size: 24px
+      line-height: 28px
 .history
   &-button
     &__active
       color: $primary
       opacity: 1
+  &-block
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 53px
+    &__item
+      padding: 21px 18px
+      width: 302px
+      height: 190px
+      text-align: center
+      box-shadow: 0px 0px 15px rgba(0, 57, 107, 0.1)
+      border-radius: 4px
+      margin-bottom: 27px
+      &--title
+        font-size: 24px
+        line-height: 28px
+        color: $primary
+        margin: 0
+        margin-bottom: 23px
+      &--text
+        margin: 0
+        font-size: 16px
+        line-height: 19px
+.quality
+  display: flex
+  margin-bottom: 60px
+  &-description
+    &__title
+      margin-bottom: 20px
+      color: $primary
+      font-family: Roboto-Bold
+      font-size: 28px
+      line-height: 33px
+    &__text
+      margin-bottom: 20px
+      font-size: 18px
+      line-height: 21px
+    &__list
+      font-size: 18px
+      line-height: 21px
+      list-style: none
+      list-style-image: url(/img/icons/list-style.png)
+
+      &--item
+        list-style-position: inside
+.blockquote
+  background: linear-gradient(90.58deg, #00386B 0%, #0172BD 104.79%)
+  padding: 28px 52px
+  margin-bottom: 60px
+  &-item
+    margin: 0
+    text-align: center
+    font-family: Segoe Print
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 42px
+    color: #FFFFFF
+  &-author
+    margin: 10px 20px 0 0
+    text-align: right
+    color: #FFFFFF
+    font-size: 18px
+    line-height: 21px
+.innovations
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin-bottom: 60px
+  &-description
+    &__title
+      margin-bottom: 20px
+      color: $primary
+      font-family: Roboto-Bold
+      font-size: 28px
+      line-height: 33px
+    &__text
+      margin-bottom: 20px
+      font-size: 18px
+      line-height: 21px
+    &__link
+      color: $primary
+      font-family: Roboto-Bold

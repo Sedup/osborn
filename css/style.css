@@ -44,14 +44,9 @@ a:hover {
   color: #017DC7;
 }
 
-ul {
+p, ul, h1, h2, li {
   margin: 0;
   padding: 0;
-}
-
-li {
-  list-style: none;
-  margin: 0;
 }
 
 .container {
@@ -78,11 +73,28 @@ li {
   display: flex;
   align-items: center;
   font-size: 18px;
+  list-style: none;
 }
 
 .breadcrumb-list__item:not(:last-child)::after {
   content: '>';
   margin-right: 4px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+button {
+  outline: none;
+}
+
+.products-item {
+  display: none;
+}
+
+.products-item__active {
+  display: block;
 }
 
 .header-navbar {
@@ -249,7 +261,7 @@ li {
 
 .stories-image {
   position: absolute;
-  width: 40%;
+  width: 35%;
   top: 55px;
   right: -190px;
   opacity: 0.25;
@@ -449,12 +461,20 @@ li {
   align-items: start;
 }
 
+.footer-phones__list {
+  list-style: none;
+}
+
 .footer-phones__list--item {
   margin-bottom: 5px;
 }
 
 .footer-links__link {
   font-size: 18px;
+}
+
+.footer-links__list {
+  list-style: none;
 }
 
 .footer-links__list--item {
@@ -516,8 +536,377 @@ li {
   color: #00386B;
 }
 
+.osborn-today__title {
+  margin-bottom: 55px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
 .history-button__active {
   color: #00386B;
   opacity: 1;
+}
+
+.history-block {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 53px;
+}
+
+.history-block__item {
+  padding: 21px 18px;
+  width: 302px;
+  height: 190px;
+  text-align: center;
+  box-shadow: 0px 0px 15px rgba(0, 57, 107, 0.1);
+  border-radius: 4px;
+  margin-bottom: 27px;
+}
+
+.history-block__item--title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #00386B;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.history-block__item--text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.quality {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.quality-description__title {
+  margin-bottom: 20px;
+  color: #00386B;
+  font-family: Roboto-Bold;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.quality-description__text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.quality-description__list {
+  font-size: 18px;
+  line-height: 21px;
+  list-style: none;
+  list-style-image: url(/img/icons/list-style.png);
+}
+
+.quality-description__list--item {
+  list-style-position: inside;
+}
+
+.blockquote {
+  background: linear-gradient(90.58deg, #00386B 0%, #0172BD 104.79%);
+  padding: 28px 52px;
+  margin-bottom: 60px;
+}
+
+.blockquote-item {
+  margin: 0;
+  text-align: center;
+  font-family: Segoe Print;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 42px;
+  color: #FFFFFF;
+}
+
+.blockquote-author {
+  margin: 10px 20px 0 0;
+  text-align: right;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.innovations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.innovations-description__title {
+  margin-bottom: 20px;
+  color: #00386B;
+  font-family: Roboto-Bold;
+  font-size: 28px;
+  line-height: 33px;
+}
+
+.innovations-description__text {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.innovations-description__link {
+  color: #00386B;
+  font-family: Roboto-Bold;
+}
+
+.products-categories {
+  margin-bottom: 30px;
+}
+
+.products-categories__title {
+  margin: 20px 0;
+  font-size: 36px;
+  line-height: 42px;
+  color: #00386B;
+}
+
+.products-buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.products-button {
+  padding: 0;
+  margin: 20px;
+  border: none;
+  padding: 30px;
+  width: 30%;
+  min-width: 380px;
+  height: 158px;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.products-button:hover {
+  background: linear-gradient(98.14deg, #00386B -0.23%, #0172BD 99.12%);
+}
+
+.products-button:active {
+  transform: translateY(3px);
+  filter: saturate(150%);
+}
+
+.products-button__roller {
+  background: linear-gradient(0deg, #323232b3, rgba(50, 50, 50, 0.3)), url(../img/brushes/roller_brush.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.products-button__perforated {
+  background: linear-gradient(0deg, #323232b3, rgba(50, 50, 50, 0.3)), url(../img/brushes/perforated.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.products-button__powertool {
+  background: linear-gradient(0deg, #323232b3, rgba(50, 50, 50, 0.3)), url(../img/brushes/power_tool.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.products-button__broomate {
+  background: linear-gradient(0deg, #323232b3, rgba(50, 50, 50, 0.3)), url(../img/brushes/broomate.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.products-button__industrial {
+  background: linear-gradient(0deg, #323232b3, rgba(50, 50, 50, 0.3)), url(../img/brushes/industrial.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.products-button__polishing {
+  background: linear-gradient(0deg, #323232b3, rgba(50, 50, 50, 0.3)), url(../img/brushes/polishing.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.products-item__roller {
+  margin-top: 50px;
+}
+
+.products-seemore__button {
+  margin-top: 25px;
+  padding: 28px 75px;
+  background-color: #00386B;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 48%;
+  display: inline-block;
+  margin-left: 20px;
+  border: none;
+}
+
+.product-description__top {
+  margin-bottom: 50px;
+}
+
+.product-description__top--title {
+  font-family: Roboto-Bold;
+  font-size: 28px;
+  line-height: 33px;
+  color: #00386B;
+  margin-bottom: 30px;
+}
+
+.product-description__top--intro {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+
+.product-description__top--block {
+  display: flex;
+}
+
+.product-description__top--text {
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.product-description__top--usage {
+  margin-top: 40px;
+}
+
+.product-description__middle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-description__middle--left, .product-description__middle--right {
+  width: 45%;
+}
+
+.catalog-link {
+  margin-top: 25px;
+  padding: 28px 75px;
+  background-color: #00386B;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 48%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.catalog--usage {
+  margin-top: 20px;
+}
+
+.usage-title {
+  font-family: Roboto-Bold;
+  font-size: 28px;
+  line-height: 31px;
+  margin-bottom: 30px;
+}
+
+.usage-content {
+  display: flex;
+}
+
+.usage-content__text {
+  margin-left: 10px;
+}
+
+.usage-content__desc {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.usage-content__list {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.usage-content__list--item {
+  color: #017DC7;
+}
+
+.usage-content__list--item span {
+  color: #000000;
+}
+
+.usage-content__image {
+  margin-right: 10px;
+}
+
+.divline {
+  width: 200px;
+  height: 1.2px;
+  background-color: #017DC7;
+  margin-bottom: 20px;
+}
+
+.description-middle__title {
+  font-family: Roboto-Bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #00386B;
+  font-size: 20px;
+  line-height: 130%;
+}
+
+.description-middle__text, .description-middle__list {
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.description-middle__text--item, .description-middle__list--item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.description-middle__list {
+  list-style-position: inside;
+  color: #017DC7;
+  margin: 15px;
+}
+
+.description-middle__list--item {
+  font-size: 18px;
+  line-height: 130%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.description-middle__list--item span {
+  color: #000000;
+}
+
+.description-middle__image {
+  display: block;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=style.css.map */

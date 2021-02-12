@@ -31,7 +31,7 @@
             <a href="https://instruments.zp.ua" class="father-link" target="_blank">instruments.zp.ua - </a>
             <!-- <div class="divider divider-link"></div> -->
             <span class="father-description">
-              ООО ПКП “Инструмент Спектр" Официальный дистрибьютор в Украине
+              ООО ТД “Инструмент Спектр" Официальный дистрибьютор в Украине
             </span>
           </div>
         </div>
@@ -52,11 +52,11 @@
       <div class="header-navbar__bottom">
         <div class="header-navbar__bottom--links">
           <a href="#" class="header-navbar__bottom--link download">Скачать каталог</a>
-          <a href="pages/aboutUs.php" class="header-navbar__bottom--link">О компании</a>
-          <a href="#" class="header-navbar__bottom--link">Продукты</a>
-          <a href="#" class="header-navbar__bottom--link">Отрасли и применение</a>
-          <a href="#" class="header-navbar__bottom--link">Техническая информация</a>
-          <a href="#" class="header-navbar__bottom--link">Контакты</a>
+          <a href="../pages/aboutUs.php" class="header-navbar__bottom--link">О компании</a>
+          <a href="../pages/products.php" class="header-navbar__bottom--link">Продукты</a>
+          <a href="https://osborn-brushes.com.ua/application/engineering" class="header-navbar__bottom--link">Отрасли и применение</a>
+          <a href="https://osborn-brushes.com.ua/support" class="header-navbar__bottom--link">Техническая информация</a>
+          <a href="https://osborn-brushes.com.ua/contacts" class="header-navbar__bottom--link">Контакты</a>
         </div>
         <!-- /.header-navbar__bottom--links -->
       </div>

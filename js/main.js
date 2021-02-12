@@ -20,5 +20,31 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 
+//aboutus
+$(document).ready(function () {
+  var historyButton = $(".osborn-history__button");
+  var historyItem = $(".history-item");
+
+  historyButton.on('click', function (event) {
+    console.log($(this));
+    console.log('OK');
+  });
+});
+
+
+
+//products
+
+$(document).ready(function () {
+  var productsButton = $('.products-button');
+  var productsItem = $('.products-item');
+
+  productsButton.on('click', function (event) {
+    var activeProduct = $(this).attr('data-target');
+    productsItem.removeClass('products-item__active');
+    $(activeProduct).addClass('products-item__active');
+  })
+});
+
 
 

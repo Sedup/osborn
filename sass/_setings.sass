@@ -29,13 +29,15 @@ a
   transition: 0.5s linear
   &:hover
     color: #017DC7
-ul
+p, ul, h1, h2, li
   margin: 0
   padding: 0
+// ul
+//   margin: 0
+//   padding: 0
 
-li
-  list-style: none
-  margin: 0
+// li
+//   margin: 0
 
 .container
   max-width: 1280px
@@ -56,9 +58,20 @@ li
     display: flex
     align-items: center
     font-size: 18px
+    list-style: none
     &__item
       &:not(:last-child)
         &::after
           content: '>'
           margin-right: 4px
     &__link
+.bold
+  font-weight: bold
+button
+  outline: none
+
+//products
+.products-item
+  display: none
+  &__active
+    display: block
