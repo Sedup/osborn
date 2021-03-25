@@ -1,7 +1,9 @@
 .products
   &-item
-    &__roller
+    &__roller, &__perforated
       margin-top: 50px
+    // &__perforated
+    //   display: none
   &-seemore
     &__button
       margin-top: 25px
@@ -15,6 +17,22 @@
       display: inline-block
       margin-left: 20px
       border: none
+  &-close
+    &__button
+      display: flex
+      align-items: center
+      justify-content: center
+      margin: 25px auto
+      padding: 28px 75px
+      background-color: white
+      color: $primary
+      cursor: pointer
+      border-radius: 10px
+      font-size: 18px
+      line-height: 48%
+      border: 1px solid $primary
+  &-brake
+    flex-basis: 100%
 .product
   &-description
     &__top
@@ -40,9 +58,33 @@
         margin-top: 40px
     &__middle
       display: flex
+      flex-wrap: wrap
       justify-content: space-around
       &--left, &--right
         width: 45%
+      &--video
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-evenly
+        margin-bottom: 50px
+    &__bottom
+      padding-top: 20px
+      display: flex
+      justify-content: space-around
+      &--block
+        margin-top: 60px
+        width: 30%
+        flex-grow: 1
+      &--title
+        text-align: center
+        font-size: 28px
+        line-height: 30px
+      &--text
+        font-size: 18px
+        line-height: 20px
+        margin-top: 20px
+        margin-left: 20px
+        margin-right: 20px
 .catalog
   &-link
     margin-top: 25px

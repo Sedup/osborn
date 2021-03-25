@@ -27,7 +27,7 @@ $(document).ready(function () {
 
   historyButton.on('click', function (event) {
     console.log($(this));
-    console.log('OK');
+
   });
 });
 
@@ -43,8 +43,34 @@ $(document).ready(function () {
     var activeProduct = $(this).attr('data-target');
     productsItem.removeClass('products-item__active');
     $(activeProduct).addClass('products-item__active');
-  })
+  });
 });
 
 
+//details
 
+var seemoreButtons = $('.products-seemore__button');
+
+seemoreButtons.click(function () {
+  var seemoreContent = $(this).attr('data-target');
+    $('#block').slideToggle(500);
+  });
+
+// $(function () {
+//   parameters = {
+//     duration: 500,
+//     progress: function (animation, progress) {
+//       // $('#progress')
+//       //   .width(parseInt(progress * 100) + '%')
+//       //   .text(parseInt(progress * 100) + '%');
+//     // },
+//     // complete: function () {
+//     //   $('#progress')
+//     //     .css('width', '0%')
+//     //     .text('0%');
+//     // }
+//   }
+//   $('.details').click(function () {
+//     $('#block').slideToggle(500);
+//   });
+// });

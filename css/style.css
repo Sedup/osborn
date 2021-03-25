@@ -741,7 +741,7 @@ button {
   background-position: center;
 }
 
-.products-item__roller {
+.products-item__roller, .products-item__perforated {
   margin-top: 50px;
 }
 
@@ -757,6 +757,25 @@ button {
   display: inline-block;
   margin-left: 20px;
   border: none;
+}
+
+.products-close__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+  padding: 28px 75px;
+  background-color: white;
+  color: #00386B;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 48%;
+  border: 1px solid #00386B;
+}
+
+.products-brake {
+  flex-basis: 100%;
 }
 
 .product-description__top {
@@ -794,11 +813,45 @@ button {
 
 .product-description__middle {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .product-description__middle--left, .product-description__middle--right {
   width: 45%;
+}
+
+.product-description__middle--video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.product-description__bottom {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-description__bottom--block {
+  margin-top: 60px;
+  width: 30%;
+  flex-grow: 1;
+}
+
+.product-description__bottom--title {
+  text-align: center;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+.product-description__bottom--text {
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .catalog-link {

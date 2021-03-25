@@ -7,7 +7,7 @@
   <meta name="author" content="Serhii Duplii" />
   <meta name="description"
     content="Официальное представительство компании Osborn в Украине. Щетки Osborn купить в Украине. Osborn проволочный инструмент " />
-  <title>Osborn Украина. Щетки Osborn. Технические щетки и финишный инструмент. Изготовление щеточных валов под заказ.</title>
+  <title>Osborn Украина. Щетки Osborn. Технические щетки и финишный инструмент. Изготовление щеточных валов под заказ. ООО Торговый дом "Инструмент спектр"</title>
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/swiper-bundle.min.css">
   <link rel="stylesheet" href="/css/style.css">
