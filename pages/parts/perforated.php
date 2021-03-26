@@ -54,7 +54,7 @@
             <li class="usage-content__list--item"><span>Структурирование поверхностей.</span></li>
             <li class="usage-content__list--item"><span>Удаление заусенцев.</span></li>
           </ul>
-          <button class="products-seemore__button">Узнать подробнее</button>
+          <button class="products-seemore__button seemore__button" data-target="perforated_content">Узнать подробнее</button>
         </div>
         <!-- /.usage-content__text -->
         <img src="../img/products/conveyor.png" alt="Конвейер" class="usage-content__image">
@@ -66,92 +66,94 @@
     <!-- /.product-description__top -->
 
 
-    <div class="product-description__middle">
-      <div class="product-description__middle--left">
-        <div class="product-description__middle--block">
-          <div class="divline"></div>
-          <h2 class="description-middle__title">Очистка конвейерных и транспортерных лент.</h2>
-            <div class="description-middle__text">
-              <p class="description-middle__text--item">Перфорированные щетки благодаря большому ассортименту материалов ворса, производству под конкретные технологические решения, отлично справляются с очисткой конвейерных и транспортерных лент от разных загрязнений.</p>
-              <p class="description-middle__text--item">Перфорированные щетки наиболе        е универсальный очиститель ленточных конвейеров. Щетки отлично очищают ленты конвейеров от загрязнений мелкой фракции, поэтому при сильной загрязненности ленты могут служить дополнением скребкового очистителя или работать автономно. </p>
-            </div>
-            <img src="../img/products/conveyor_1.png" alt="Очистка конвейера" class="description-middle__image">
-            <div class="description-middle__text">
-            <p class="description-middle__text--item">В отличии от очистительных скребков они более деликатно воздействуют на ленту, что позволяет применять их на старых лентах не боясь за повреждение стыков и задира покрытия. Также в сравнении со скребковыми очистителями щетки выигрывают при очистке лент с выступами и перегородками, где скребки просто бессильны. </p>
-            <p class="description-middle__text--item">Щетки устанавливаются под приводным валом конвейера, в таком положении возможно обеспечить достаточно сильный прижим щетки к поверхности ленты . Щетка может устанавливаться под прямым углом к ленте, или по диагонали, обеспечивая удаление загрязнения в определенную сторону. Щетки могут применяться для уборки лент в таких отраслях промышленности как пищевая, химическая, фармацевтическая, где к качеству очистки предъявляются высокие требования. </p>
-            <p class="description-middle__text--item">Благодаря широкому ассортименту материалов ворса (проволока из различных металлов, ворс из синтетических материалов, натуральный ворс, полимероабразивы) щетки пригодны для очистки самых разнообразных поверхностей в самых различных условиях. С помощью щеток очищаются конвейеры с резиновой лентой, плоские стальные ленты, глазировочные сетки, поддоны из пластика и т.д.</p>
-            </div>
-        </div>
-        <!-- /.product-description__middle--block -->
-      </div>
-      <!-- /.product-description__middle--left -->
-
-      <div class="product-description__middle--right">
-        <div class="product-description__middle--block">
-          <div class="description-middle__text">
-            <p class="description-middle__text--item">Щетки отлично работают в широком диапазоне температур – от -25 °С до + 50 °С. Температура ленты может достигать 120 °С, благодаря этому их можно использовать для очистки конвейеров в туннельных печах. Щетки могут очищать ленты с различным уровнем загрязненности, как с применением воды так и без, с применением обычных моющих средств или специальных активных моющих растворов.</p>
-            <p class="description-middle__text--item">Для того чтобы щетка выполняла свои функции по очистке ей придается вращение. Направление вращения устанавливают против движения конвейерной ленты. Есть несколько вариантов привода очистительных щеток. Наиболее преимущественный это автономный привод в отличии от прямого привода от самого конвейера.</p>
-            <p class="description-middle__text--item">Автономный привод позволяет подобрать наиболее оптимальные обороты вращения щетки при которых она будет наиболее эффективно очищать поверхность ленты и легко их изменять при изменении загрязненности (смена вида транспортируемой продукции, сильное налипание материала вследствие намокания и т.д.). Превышать оптимальные обороты щетки не рекомендуется, так как это приводит к более интенсивному и неоправданному износу щетки. Как показала практика, частота оборотов очистительных щеток колеблется от 300 до 1500 об/мин.</p>
-            <p class="description-middle__text--item">Обычно для очистки конвейеров применяются перфорированные роликовые щетки, но иногда могут устанавливаться и полосовые щетки, представляя собой мягкий аналог скребка. Очень важно при подборе очистительной щетки правильно подобрать материал ворса, его плотность, габариты щетки. Наши специалисты проконсультируют вас по всем возникающим вопросам и подберут оптимальный вариант для вашего производства. Щетки поставляются как из текущего ассортимента так и изготавливаются согласно техническим требованиям заказчика.</p>
-          </div>
-          <img src="../img/products/brush_drive.png" alt="HDL" class="description-middle__image">
-        </div>
-        <!-- /.product-description__middle--block -->
-      </div>
-      <!-- /.product-description__middle--right -->
-    </div>
-    <!-- /.product-description__middle -->
-
-    <div class="product-description__middle--video">
-      <div class="product-description__middle--video_item">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/B2Ax7eccn8k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    
-      <div class="product-description__middle--video_item">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/b-DSpqHnE34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-    <!-- /.product-description__middle--video -->
-
-        <div class="product-description__middle">
-          <div class="product-description__middle--left">
-            <div class="product-description__middle--block">
-              <div class="divline"></div>
-              <h2 class="description-middle__title">Чистка, мойка, полировка сушка овощей, фруктов и прочей продукции.</h2>
+    <div class="perforated_content"  style="display: none;">
+      <div class="product-description__middle">
+        <div class="product-description__middle--left">
+          <div class="product-description__middle--block">
+            <div class="divline"></div>
+            <h2 class="description-middle__title">Очистка конвейерных и транспортерных лент.</h2>
               <div class="description-middle__text">
-                <p class="description-middle__text--item">Работу с продукцией возможно проводить на конвейере или в специальных
-                  машинах. Например на конвейере может проводится
-                  шелушение арахиса, а в специальных машинах с применением щеток проводится мойка яиц. Машины для мойки делятся
-                  на разные типы: линейный (щетки монтируются в ряд), барабанный, конусный или другой тип.</p>
+                <p class="description-middle__text--item">Перфорированные щетки благодаря большому ассортименту материалов ворса, производству под конкретные технологические решения, отлично справляются с очисткой конвейерных и транспортерных лент от разных загрязнений.</p>
+                <p class="description-middle__text--item">Перфорированные щетки наиболе        е универсальный очиститель ленточных конвейеров. Щетки отлично очищают ленты конвейеров от загрязнений мелкой фракции, поэтому при сильной загрязненности ленты могут служить дополнением скребкового очистителя или работать автономно. </p>
               </div>
-              <!-- <img src="../img/products/conveyor_1.png" alt="Очистка конвейера" class="description-middle__image"> -->
-            </div>
-            <!-- /.product-description__middle--block -->
-          </div>
-          <!-- /.product-description__middle--left -->
-        
-          <div class="product-description__middle--right">
-            <div class="product-description__middle--block">
+              <img src="../img/products/conveyor_1.png" alt="Очистка конвейера" class="description-middle__image">
               <div class="description-middle__text">
-                <p class="description-middle__text--item">При очистке овощей результата добиваются путем применения большого
-                  количества моющих щеток, которые параллельно очищают
-                  и переворачивают продукцию. Также при работе с овощной продукцией щетки применяются для сортировки по
-                  величине.</p>
+              <p class="description-middle__text--item">В отличии от очистительных скребков они более деликатно воздействуют на ленту, что позволяет применять их на старых лентах не боясь за повреждение стыков и задира покрытия. Также в сравнении со скребковыми очистителями щетки выигрывают при очистке лент с выступами и перегородками, где скребки просто бессильны. </p>
+              <p class="description-middle__text--item">Щетки устанавливаются под приводным валом конвейера, в таком положении возможно обеспечить достаточно сильный прижим щетки к поверхности ленты . Щетка может устанавливаться под прямым углом к ленте, или по диагонали, обеспечивая удаление загрязнения в определенную сторону. Щетки могут применяться для уборки лент в таких отраслях промышленности как пищевая, химическая, фармацевтическая, где к качеству очистки предъявляются высокие требования. </p>
+              <p class="description-middle__text--item">Благодаря широкому ассортименту материалов ворса (проволока из различных металлов, ворс из синтетических материалов, натуральный ворс, полимероабразивы) щетки пригодны для очистки самых разнообразных поверхностей в самых различных условиях. С помощью щеток очищаются конвейеры с резиновой лентой, плоские стальные ленты, глазировочные сетки, поддоны из пластика и т.д.</p>
               </div>
-              <!-- <img src="../img/products/brush_drive.png" alt="HDL" class="description-middle__image"> -->
-            </div>
-            <!-- /.product-description__middle--block -->
           </div>
-          <!-- /.product-description__middle--right -->
+          <!-- /.product-description__middle--block -->
         </div>
-        <!-- /.product-description__middle -->
-    
-    <div class="products-brake">
-      <button class="products-close__button">Закрыть</button>
-    </div>
+        <!-- /.product-description__middle--left -->
 
+        <div class="product-description__middle--right">
+          <div class="product-description__middle--block">
+            <div class="description-middle__text">
+              <p class="description-middle__text--item">Щетки отлично работают в широком диапазоне температур – от -25 °С до + 50 °С. Температура ленты может достигать 120 °С, благодаря этому их можно использовать для очистки конвейеров в туннельных печах. Щетки могут очищать ленты с различным уровнем загрязненности, как с применением воды так и без, с применением обычных моющих средств или специальных активных моющих растворов.</p>
+              <p class="description-middle__text--item">Для того чтобы щетка выполняла свои функции по очистке ей придается вращение. Направление вращения устанавливают против движения конвейерной ленты. Есть несколько вариантов привода очистительных щеток. Наиболее преимущественный это автономный привод в отличии от прямого привода от самого конвейера.</p>
+              <p class="description-middle__text--item">Автономный привод позволяет подобрать наиболее оптимальные обороты вращения щетки при которых она будет наиболее эффективно очищать поверхность ленты и легко их изменять при изменении загрязненности (смена вида транспортируемой продукции, сильное налипание материала вследствие намокания и т.д.). Превышать оптимальные обороты щетки не рекомендуется, так как это приводит к более интенсивному и неоправданному износу щетки. Как показала практика, частота оборотов очистительных щеток колеблется от 300 до 1500 об/мин.</p>
+              <p class="description-middle__text--item">Обычно для очистки конвейеров применяются перфорированные роликовые щетки, но иногда могут устанавливаться и полосовые щетки, представляя собой мягкий аналог скребка. Очень важно при подборе очистительной щетки правильно подобрать материал ворса, его плотность, габариты щетки. Наши специалисты проконсультируют вас по всем возникающим вопросам и подберут оптимальный вариант для вашего производства. Щетки поставляются как из текущего ассортимента так и изготавливаются согласно техническим требованиям заказчика.</p>
+            </div>
+            <img src="../img/products/brush_drive.png" alt="HDL" class="description-middle__image">
+          </div>
+          <!-- /.product-description__middle--block -->
+        </div>
+        <!-- /.product-description__middle--right -->
+      </div>
+      <!-- /.product-description__middle -->
 
+      <div class="product-description__middle--video">
+        <div class="product-description__middle--video_item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/B2Ax7eccn8k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      
+        <div class="product-description__middle--video_item">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/b-DSpqHnE34" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <!-- /.product-description__middle--video -->
 
+       <div class="product-description__middle">
+            <div class="product-description__middle--left">
+              <div class="product-description__middle--block">
+                <div class="divline"></div>
+                <h2 class="description-middle__title">Чистка, мойка, полировка сушка овощей, фруктов и прочей продукции.</h2>
+                <div class="description-middle__text">
+                  <p class="description-middle__text--item">Работу с продукцией возможно проводить на конвейере или в специальных
+                    машинах. Например на конвейере может проводится
+                    шелушение арахиса, а в специальных машинах с применением щеток проводится мойка яиц. Машины для мойки делятся
+                    на разные типы: линейный (щетки монтируются в ряд), барабанный, конусный или другой тип.</p>
+                </div>
+                <!-- <img src="../img/products/conveyor_1.png" alt="Очистка конвейера" class="description-middle__image"> -->
+              </div>
+              <!-- /.product-description__middle--block -->
+            </div>
+            <!-- /.product-description__middle--left -->
+          
+            <div class="product-description__middle--right">
+              <div class="product-description__middle--block">
+                <div class="description-middle__text">
+                  <p class="description-middle__text--item">При очистке овощей результата добиваются путем применения большого
+                    количества моющих щеток, которые параллельно очищают
+                    и переворачивают продукцию. Также при работе с овощной продукцией щетки применяются для сортировки по
+                    величине.</p>
+                </div>
+                <!-- <img src="../img/products/brush_drive.png" alt="HDL" class="description-middle__image"> -->
+              </div>
+              <!-- /.product-description__middle--block -->
+            </div>
+            <!-- /.product-description__middle--right -->
+          </div>
+          <!-- /.product-description__middle -->   
+      
+        <div class="products-brake">
+          <button class="products-close__button seemore__button" data-target="perforated_content">Закрыть</button>
+        </div>
+      </div>
+
+    </div>      
+    <!-- /.perforated_content -->   
 
 
 

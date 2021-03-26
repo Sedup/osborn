@@ -43,7 +43,7 @@
             <li class="usage-content__list--item"><span>Полировка и финишная обработка.</span></li>
             <li class="usage-content__list--item"><span>Транспортировка продукции.</span></li>
           </ul>
-          <button class="products-seemore__button">Узнать подробнее</button>
+          <button class="products-seemore__button seemore__button" data-target="roller_content">Узнать подробнее</button>
         </div>
         <!-- /.usage-content__text -->
         <img src="../img/products/mill.jpg" alt="Щёточный вал" class="usage-content__image">
@@ -55,7 +55,7 @@
     <!-- /.product-description__top -->
 
 
-    <div class="product-description__middle" data-target="roller">
+    <div class="product-description__middle roller_content " style="display: none;">
       <div class="product-description__middle--left">
         <div class="product-description__middle--block">
           <div class="divline"></div>
@@ -187,7 +187,7 @@
       </div>
       <!-- /.product-description__middle--right -->
           <div class="products-brake">
-            <button class="products-close__button">Закрыть</button>
+            <button class="products-close__button seemore__button"  data-target="roller_content">Закрыть</button>
           </div>
     </div>
     <!-- /.product-description__middle -->
