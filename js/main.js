@@ -50,7 +50,7 @@ $(document).ready(function () {
 //details
 
 var seemoreButtons = $('.seemore__button');
-seemoreButtons.click(function () {
+  seemoreButtons.click(function () {
   var seemoreContent = '.' + $(this).attr('data-target');
   $(seemoreContent).slideToggle(500);
   });

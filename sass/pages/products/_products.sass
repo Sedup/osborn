@@ -60,13 +60,24 @@
       display: flex
       flex-wrap: wrap
       justify-content: space-around
-      &--left, &--right
+      &--left
         width: 45%
+      &--right
+        width: 45%
+        // margin-top: 50px
       &--video
         display: flex
         flex-wrap: wrap
         justify-content: space-evenly
         margin-bottom: 50px
+      &--image
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-evenly
+        margin-bottom: 50px
+        &_item
+          width: 30%
+          border-radius: 2%
     &__bottom
       padding-top: 20px
       display: flex

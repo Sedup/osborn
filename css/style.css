@@ -817,7 +817,11 @@ button {
   justify-content: space-around;
 }
 
-.product-description__middle--left, .product-description__middle--right {
+.product-description__middle--left {
+  width: 45%;
+}
+
+.product-description__middle--right {
   width: 45%;
 }
 
@@ -826,6 +830,18 @@ button {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 50px;
+}
+
+.product-description__middle--image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.product-description__middle--image_item {
+  width: 30%;
+  border-radius: 2%;
 }
 
 .product-description__bottom {

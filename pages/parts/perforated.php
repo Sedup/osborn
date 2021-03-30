@@ -146,11 +146,58 @@
             <!-- /.product-description__middle--right -->
           </div>
           <!-- /.product-description__middle -->   
+
+          <div class="product-description__middle--image">
+            <img src="/img/products/fruit_washing_1.png" alt="Щетки для мойки фруктов" class="product-description__middle--image_item">
+            <img src="/img/products/fruit_washing_2.png" alt="Щетки для мойки фруктов" class="product-description__middle--image_item">
+            <img src="/img/products/fruit_washing_3.png" alt="Щетки для мойки фруктов" class="product-description__middle--image_item">
+          </div>
+      <!-- /.product-description__middle--image -->
+
+      <div class="product-description__middle">
+        <div class="product-description__middle--left">
+          <div class="product-description__middle--block">
+            <div class="divline"></div>
+            <h2 class="description-middle__title">Применение в стекольной промышленности.</h2>
+            <div class="description-middle__text">
+              <p class="description-middle__text--item">Роликовые щетки используются в оборудовании для мойки стекла, и при технологических процессах связанных с выпуском стекла и зеркал.</p>
+              <p class="description-middle__text--item">При проведении операций по мойке зеркал применяются роликовые щетки с нейлоновым ворсом. При полировке оксидом церия -
+              торцевые щетки с ворсом из нейлона, установленные двумя рядами. Ворс в таких щетках сменный, благодаря специальной конструкции замена осуществляется быстро без применения специального инструмента, что исключает простои.</p>
+                <p class="description-middle__text--item">В вертикальных машинах для мойки стекла длинные роликовые щетки ставятся парами одна за другой. Через каждую пару
+                проводится лист стекла при непрерывном орошении водой.</p>
+            </div>
+          </div>
+          <!-- /.product-description__middle--block -->
+        </div>
+        <!-- /.product-description__middle--left -->
+      
+        <div class="product-description__middle--right">
+          <div class="product-description__middle--block">
+            <div class="description-middle__text">
+              <p class="description-middle__text--item">Щетки для машин для мойки стекла используются преимущественно набивные высокой плотности или спиральные.</p>
+              <p class="description-middle__text--item">Для разных типов стекла должен подбираться свой вид ворса толщиной от 0,1 до 0,35мм из нейлона или повышенной мягкости
+              из конского волоса.</p>
+              <p class="description-middle__text--item">Набивные щетки могут использоваться для монтажа на верстаках для сборки металлопластиковых конструкций. Такие щетки
+              снабжены мягким нейлоновым ворсом, который способен защитить изделия при транспортировке.</p>
+            </div>
+          </div>
+          <!-- /.product-description__middle--block -->
+        </div>
+        <!-- /.product-description__middle--right -->
+      </div>
+      <!-- /.product-description__middle -->
+
+      <div class="product-description__middle--image">
+        <img src="/img/products/glass_production_1.png" alt="Щетки для производства и мойки стекла" class="product-description__middle--image_item">
+        <img src="/img/products/glass_production_2.png" alt="Щетки для производства и мойки стекла" class="product-description__middle--image_item">
+        <img src="/img/products/glass_production_3.png" alt="Щетки для производства и мойки стекла" class="product-description__middle--image_item">
+      </div>
+      <!-- /.product-description__middle--image -->
       
         <div class="products-brake">
           <button class="products-close__button seemore__button" data-target="perforated_content">Закрыть</button>
         </div>
-      </div>
+      
 
     </div>      
     <!-- /.perforated_content -->   
@@ -193,9 +240,7 @@
         </h2>
         <p class="product-description__bottom--text">
           Для клиентов, желающих восстанавливать и проводить техническое обслуживание своих роликовых щеток, мы предоставляем
-          системы для самостоятельной сборки. В наш спектр продукции входят кассеты сварной конструкции, изготовленные при
-          помощи
-          автоматической сварки; кассеты, монтируемые на однонаправленные трубные корпуса, а также одиночные диски и свободные
+          системы для самостоятельной сборки. В наш спектр продукции входят кассеты сварной конструкции, изготовленные при помощи автоматической сварки; кассеты, монтируемые на однонаправленные трубные корпуса, а также одиночные диски и свободные
           спирали для старых систем. С тем, чтобы адаптировать эти щетки к валам существующей конструкции, к ним, при
           необходимости, прилагаются однонаправленные адаптеры. В отличие от всех остальных мировых производителей, мы можем
           осуществить поставку подходящей щеточной кассеты практически для любого вала заказчика.
