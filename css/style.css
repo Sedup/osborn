@@ -870,6 +870,10 @@ button {
   margin-right: 20px;
 }
 
+.product-description__bottom--perforated {
+  margin-top: 40px;
+}
+
 .catalog-link {
   margin-top: 25px;
   padding: 28px 75px;
