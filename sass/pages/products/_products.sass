@@ -1,9 +1,7 @@
 .products
   &-item
-    &__roller, &__perforated
+    &__roller, &__perforated, &__broomate
       margin-top: 50px
-    // &__perforated
-    //   display: none
   &-seemore
     &__button
       margin-top: 25px
@@ -98,8 +96,14 @@
         margin-right: 20px
       &--perforated
         margin-top: 40px
+      &--image
+        margin: auto
+        width: 80%
+      &--column
+        display: flex
     &__textblock
-
+      flex-basis: 30%
+      width: 50%
 .catalog
   &-link
     margin-top: 25px
@@ -177,5 +181,31 @@
       margin-left: auto
       margin-right: auto
       border-radius: 4px
-// .dn
-//   display: none
+
+  //broomate
+
+.broomate
+  &-description
+    &__block
+      display: flex
+      justify-content: space-around
+      &--text
+        flex-basis: 45%
+      &--slider
+        flex-basis: 45%
+        min-width: 0
+    &__text
+      font-size: 18px
+      line-height: 130%
+  &-listname
+    margin-top: 25px
+    font-family: Roboto-Bold
+    font-size:18px
+    line-height: 130%
+  &-list
+    color: red
+    &__item
+      margin-top: 15px
+      font-size:18px
+      line-height: 130%
+

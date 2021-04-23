@@ -1,5 +1,6 @@
 
-var swiper = new Swiper('.swiper-container', {
+//main
+var swiper = new Swiper('.swiper-main', {
   speed: 3000,
   loop: true,
   autoplay: true,
@@ -44,6 +45,20 @@ $(document).ready(function () {
     productsItem.removeClass('products-item__active');
     $(activeProduct).addClass('products-item__active');
   });
+});
+
+var swiper = new Swiper('.swiper-broomate', {
+  speed: 1000,
+  loop: true,
+  autoplay: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
 });
 
 

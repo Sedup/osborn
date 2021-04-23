@@ -48,7 +48,9 @@
 
   <!-- perforated -->
   <?php include '../pages/parts/perforated.php'; ?>
- 
+
+  <!-- broomate -->
+  <?php include '../pages/parts/broomate.php'; ?>
 
   <!-- tools -->
   <div class="products-item products-item_perforated" id="powertool">

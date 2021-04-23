@@ -39,7 +39,10 @@
       <div class="usage-content">
         <div class="usage-content__text">
           <p class="usage-content__desc">
-            Перечень сфер применения перфорированных щеток крайне широк.   Они могут применяться в разных производственных отраслях, таких как:
+            Перечень сфер применения перфорированных щеток крайне широк.
+          </p>
+          <p class="usage-content__desc">
+            Они могут применяться в разных производственных отраслях, таких как:
           </p>
           <ul class="usage-content__list">
             <li class="usage-content__list--item"><span>Очистка конвейерной ленты.</span></li>
@@ -226,8 +229,9 @@
         <!-- /.product-description__top--textblock -->
       </div>
       <!-- /.product-description__top--block -->
-      <div class="product-description__top--block">
-      <div class="product-description__top--textblock product-description__textblock">
+      <div class="product-description__bottom--column">
+      <div class="product-description__bottom--textblock">
+      <!-- <div> -->
         <p class="product-description__bottom--text">
           <span class="bold">Роликовые набивные щетки MultiZack® являются гораздо более экономичными по сравнению со спиральными щетками.</span><br>
           <span class="bold">Во-первых</span>, благодаря себестоимости из-за стандартизированных размеров корпусов, <span class="bold">во-вторых</span>, Вы меняете только изношенные секции, а не щетку целиком.
@@ -241,9 +245,11 @@
           стабильными. Щетки MultiZack производятся на заказ также из кислото-/щелочеустойчивых материалов, и имеют допуск для
           применения в пищевой промышленности.
         </p>
-        <img src="/img/products/multizack_1.png" alt="Multizack" class="product-description__bottom--image">
+      <!-- </div> -->
       </div>
-      
+      <div class="product-description__bottom--image">
+        <img src="/img/products/multizack_1.png" alt="Multizack">
+      </div>
       </div>
     </div>
     <!-- /.product-description__bottom--perforated -->

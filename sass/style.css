@@ -502,7 +502,6 @@ button {
 
 .footer {
   width: 100%;
-  margin-top: 30px;
   background: #00386B;
   color: #FFFFFF;
 }
@@ -855,7 +854,7 @@ button {
   background-position: center;
 }
 
-.products-item__roller, .products-item__perforated, .products-item__broomate {
+.products-item__roller, .products-item__perforated {
   margin-top: 50px;
 }
 
@@ -988,6 +987,7 @@ button {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  display: none;
 }
 
 .product-description__bottom--block {
@@ -1017,20 +1017,13 @@ button {
 }
 
 .product-description__bottom--image {
-  margin: auto;
-  width: 80%;
-}
-
-.product-description__bottom--column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 .product-description__textblock {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
-  width: 50%;
 }
 
 .catalog-link {
@@ -1142,36 +1135,5 @@ button {
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
-}
-
-.broomate-description__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.broomate-description__block--text {
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
-}
-
-.broomate-description__block--slider {
-  -ms-flex-preferred-size: 45%;
-      flex-basis: 45%;
-  min-width: 0;
-}
-
-.broomate-description__text {
-  font-size: 18px;
-  line-height: 130%;
-}
-
-.broomate-listname {
-  margin-top: 25px;
-  font-family: Roboto-Bold;
-  font-size: 28px;
-  line-height: 31px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -68,7 +68,7 @@
       <h2 class="partners-title main-title">Нашу продукцию используют</h2>
       
       <!-- Slider main container -->
-      <div class="swiper-container">
+      <div class="swiper-container swiper-main">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
