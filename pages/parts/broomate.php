@@ -18,13 +18,13 @@
                         Работа данными щетками удивительно проста, щеточные полосы могут быть заменены поотдельности. Так как конструкия не имеет электрических/подвижных частей и  не подвержена дефектам.
                     </p>
                     <p class="broomate-listname">Применение:</p>
-                    <ul class="broomate-list">
-                        <li class="broomate-list__item">строительные площадки, </li>
-                        <li class="broomate-list__item">склады,</li>
-                        <li class="broomate-list__item">карьеры, </li>
-                        <li class="broomate-list__item">животноводческиу фермы,</li>
-                        <li class="broomate-list__item">заводы - для уборки отходов производства, 
-                            мусора, листьев, снега, грязи и прочего.</li>
+                    <ul class="broomate-list__first">
+                        <li class="broomate-list__item"><span>строительные площадки,</span></li>
+                        <li class="broomate-list__item"><span>склады,</span></li>
+                        <li class="broomate-list__item"><span>карьеры,</span></li>
+                        <li class="broomate-list__item"><span>животноводческиу фермы,</span></li>
+                        <li class="broomate-list__item"><span>заводы - для уборки отходов производства, 
+                            мусора, листьев, снега, грязи и прочего.</span></li>
                     </ul>
                 </div>
     
@@ -51,9 +51,55 @@
                         <div class="swiper-button-next"></div>
                     </div>
                 </div>
-
             </div>
 
+            <div class="broomate-description__block">
+                <div class="broomate-description__block--video"> 
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PKQN_wgV6uE" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                </div>
+
+                <div class="broomate-description__block--text">
+                    <h3 class="broomate-description__title">
+                        Преимущества щеток Broomate:
+                    </h3>
+                    <ol class="broomate-list__second">
+                        <li class="broomate-list__item"><span>Для уборки территории и больших площадей.
+                            Максимальная производительность подметания.</span></li>
+                        <li class="broomate-list__item"><span>Универсальны и просты в применении. Применяются на обычном погрузчике.</span></li>
+                        <li class="broomate-list__item"><span>Сменить изношенные щетки легко и просто!</span></li>
+                    </ol>
+                    <p class="broomate-description__text">
+                        За эту инновационную разработку. компания Osborn получила в награду золотую медаль от  журнала Zemědělský Týdeník на крупной агропромышленной выставке в Чехии, г .Брно.
+                    </p>
+                </div>
+            </div>
+
+            <table class="products-table">
+                <tr>
+                    <th>Тип</th>
+                    <th>Ряды щеток</th>
+                    <th>Щетки, мм</th>
+                    <th>Код заказа</th>
+                </tr>
+                <tr>
+                    <td>Megamate</td>
+                    <td>11</td>
+                    <td>3000</td>
+                    <td>APR300</td>
+                </tr>
+                <tr>
+                    <td>Maximate</td>
+                    <td>11</td>
+                    <td>2400</td>
+                    <td>APR240</td>
+                </tr>
+                <tr>
+                    <td>Midimate</td>
+                    <td>11</td>
+                    <td>1800</td>
+                    <td>APR180</td>
+                </tr>
+            </table>
 
 
         </div>

@@ -899,6 +899,29 @@ button {
       flex-basis: 100%;
 }
 
+.products-table {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  line-height: 130%;
+  border: 1px solid #017DC7;
+  border-collapse: collapse;
+}
+
+.products-table th {
+  color: #017DC7;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border: 1px solid #017DC7;
+}
+
+.products-table td {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border: 1px solid #017DC7;
+  background-color: #B3D8EE;
+}
+
 .product-description__top {
   margin-bottom: 50px;
 }
@@ -1150,6 +1173,10 @@ button {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
 }
 
 .broomate-description__block--text {
@@ -1171,7 +1198,18 @@ button {
 .broomate-listname {
   margin-top: 25px;
   font-family: Roboto-Bold;
-  font-size: 28px;
-  line-height: 31px;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+.broomate-list__item {
+  margin-top: 15px;
+  color: #017DC7;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.broomate-list__item span {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
