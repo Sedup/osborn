@@ -14,7 +14,8 @@
         "../sass/pages/main/_footer.sass",
         "../sass/pages/aboutus/_osborn-history.sass",
         "../sass/pages/products/_buttons.sass",
-        "../sass/pages/products/_products.sass"
+        "../sass/pages/products/_products.sass",
+        "../sass/pages/catalogs/_catalogs.sass"
     ],
     "names": [],
     "file": "style.css"

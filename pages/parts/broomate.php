@@ -1,4 +1,4 @@
-<div class="products-item__broomate">
+<div class="products-item products-item__broomate" id="broomate">
     <div class="container">
         <h2 class="product-description__top--title">
             Щетки для уборки больших площадей Broomate

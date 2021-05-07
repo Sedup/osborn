@@ -25,10 +25,10 @@
     <button class="products-button products-button__perforated" data-target="#perforated">
       Перфорированные нестандартные щетки
     </button>
-    <button class="products-button products-button__powertool"  data-target="#powertool">
+    <button class="products-button products-button__powertool" data-target="#powertool">
       Щетки для электроинструмента и оборудования
     </button>
-    <button class="products-button products-button__broomate">
+    <button class="products-button products-button__broomate"  data-target="#broomate">
       Щетки для уборки больших площадей Broomate
     </button>
     <button class="products-button products-button__industrial">

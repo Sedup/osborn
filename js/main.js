@@ -44,22 +44,26 @@ $(document).ready(function () {
     var activeProduct = $(this).attr('data-target');
     productsItem.removeClass('products-item__active');
     $(activeProduct).addClass('products-item__active');
+    
+    if(activeProduct='#broomate')
+    var swiper = new Swiper('.swiper-broomate', {
+      speed: 1000,
+      loop: true,
+      autoplay: true,
+      setWrapperSize: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
   });
 });
 
-var swiper = new Swiper('.swiper-broomate', {
-  speed: 1000,
-  loop: true,
-  autoplay: true,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-});
+
 
 
 //details

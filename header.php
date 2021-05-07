@@ -7,8 +7,8 @@
   <meta name="author" content="Serhii Duplii" />
   <meta name="description"
     content="Официальное представительство компании Osborn в Украине. Щетки Osborn купить в Украине. Osborn проволочный инструмент " />
+  <meta property="og:image" content="https://osborn.store/apple-touch-icon.png">
   <title>Osborn Украина. Щетки Osborn. Технические щетки и финишный инструмент. Изготовление щеточных валов под заказ. ООО Торговый дом "Инструмент спектр"</title>
-  
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,6 +16,9 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#2d89ef">
   <meta name="theme-color" content="#ffffff">
+
+  <meta name="keywords" content="osborn щетки, технические щетки osborn украина, щетки osborn купить, торговый дом инструмент сектр, ТД инструмент спектр">
+  <meta name="description" content="ООО Торговый дом Инструмент спектр. Официальный представитель компании Osborn в Украине. Щетки Osborn купить в Украине. Osborn проволочный инструмент ">
   
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/swiper-bundle.min.css">
@@ -60,7 +63,7 @@
       <!-- /.header-navbar -->
       <div class="header-navbar__bottom">
         <div class="header-navbar__bottom--links">
-          <a href="#" class="header-navbar__bottom--link download">Скачать каталог</a>
+          <a href="../pages/catalogs.php" class="header-navbar__bottom--link download">Скачать каталог</a>
           <a href="../pages/aboutUs.php" class="header-navbar__bottom--link">О компании</a>
           <a href="../pages/products.php" class="header-navbar__bottom--link">Продукты</a>
           <a href="https://osborn-brushes.com.ua/application/engineering" class="header-navbar__bottom--link">Отрасли и применение</a>
