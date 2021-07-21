@@ -1,1 +1,34 @@
-
+.catalogs
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    &-title
+        margin-top: 45px
+        margin-bottom: 45px
+        font-family: Roboto-Bold
+        font-size: 42px
+        line-height: 49px
+        color: $primary
+    &-link:hover
+        transform: scale(1.1)
+.catalog
+    &-block
+        display: flex
+        // flex-basis: 40%
+        width: 44%
+    &-description
+        padding: 20px
+        &__title
+            font-size: 28px
+            line-height: 33px
+            font-family: Roboto-Bold
+            color: $primary
+        &__text
+            margin-top: 20px
+            margin-bottom: 20px
+            font-size: 16px
+            line-height: 130%
+        &__language
+            color: $secondary
+            font-size: 16px
+            line-height: 130%

@@ -18,7 +18,7 @@
           <span class="bold">Мы изготавливаем щеточные валы под заказ.</span> Наши роликовые щетки и валки предназначены для обезжиривания, мытья, чистки,
           полировки и финишной обработки поверхностей, удаления окалины и покрытий, транспортировки и понижения уровня шума.
         </p>
-        <a href="../catalogs/Osborn_Roller_Brushes_rus.pdf" class="catalog-link">Смотреть каталог</a>
+        <a href="/catalogs/Osborn-Primarymetals-Russian.pdf" class="catalog-link">Смотреть каталог</a>
       </div>
       <!-- /.product-description__top--textblock -->
     </div>
