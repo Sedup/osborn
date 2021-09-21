@@ -138,6 +138,14 @@
             </div>
         </div>
         <div class="catalog-block">
+            <a href="../catalogs/osborn-catalogue-polishing.pdf" target="_blank" class="catalogs-link"><img src="../catalogs/catalogs_previews/osborn-catalogue-polishing_preview.png" alt="Catalog preview" class="catalog-preview"></a>
+            <div class="catalog-description">
+                <a href="../catalogs/osborn-catalogue-polishing.pdf" target="_blank"><h2 class="catalog-description__title">Полировка ручным инструментом</h2></a>
+                <p class="catalog-description__text">Полировальные составы обязательны для всех видов работ по полировке, т.к. они содержат абразивные частицы, необходимые для получения заданного качества обработки поверхности.</p>
+                <p class="catalog-description__language">Русский</p>
+            </div>
+        </div>
+        <div class="catalog-block">
             <a href="../catalogs/Osborn-Polishing_Steel_and_Stainless_Steel-WEB.pdf" target="_blank" class="catalogs-link"><img src="../catalogs/catalogs_previews/Osborn-Polishing_Steel_and_Stainless_Steel_prev.png" alt="Catalog preview" class="catalog-preview"></a>
             <div class="catalog-description">
                 <a href="../catalogs/Osborn-Polishing_Steel_and_Stainless_Steel-WEB.pdf" target="_blank"><h2 class="catalog-description__title">Полировка стали и нержавеющей стали</h2></a>

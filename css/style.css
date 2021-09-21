@@ -742,7 +742,7 @@ button {
   background-position: center;
 }
 
-.products-item__roller, .products-item__perforated, .products-item__broomate {
+.products-item__roller, .products-item__perforated, .products-item__broomate, .products-item__polishing {
   margin-top: 50px;
 }
 
@@ -1058,6 +1058,10 @@ button {
 
 .broomate-list__item span {
   color: black;
+}
+
+.polishing-image {
+  width: 260px;
 }
 
 .catalogs {

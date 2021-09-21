@@ -34,7 +34,7 @@
     <button class="products-button products-button__industrial">
       Щеточные уплотнители Промышленные уплотнители
     </button>
-    <button class="products-button products-button__polishing">
+    <button class="products-button products-button__polishing" data-target="#polishing">
       Полировальные круги и пасты
     </button>
   </div>
@@ -56,6 +56,9 @@
   <div class="products-item products-item_perforated" id="powertool">
     Щётки для электроинструмента
   </div>
+
+  <!-- polishing -->
+  <?php include '../pages/parts/polishing.php'; ?>
   <!-- /.products-item -->
 
 </div>

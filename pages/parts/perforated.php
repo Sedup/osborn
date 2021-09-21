@@ -1,4 +1,5 @@
 <div class="products-item products-item__perforated" id="perforated">
+  <div class="container">
     <div class="product-description__top">
     <h2 class="product-description__top--title">Перфорированные нестандартные щетки</h2>
     <p class="product-description__top--intro">Перфорированные (или набивные) щетки могут быть изготовлены различной формы и размера, с различными материалами ворса. Мы имеем практически неограниченные возможности конструкции щеток на заказ для любого примения.</p>
@@ -254,6 +255,7 @@
     </div>
     <!-- /.product-description__bottom--perforated -->
 
-
+    </div>
+    <!-- /.products-item -->
 </div>
 <!-- /.products-item -->
