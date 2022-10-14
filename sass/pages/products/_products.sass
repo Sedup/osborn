@@ -1,6 +1,6 @@
 .products
   &-item
-    &__roller, &__perforated, &__broomate, &__polishing
+    &__roller, &__perforated, &__powertool, &__broomate, &__industrial, &__polishing, &__powertool
       margin-top: 50px
   &-seemore
     &__button
@@ -231,6 +231,90 @@
     &__item span
       color: black
 
-  //broomate
+  //industrial
+.industrial
+  &-description
+    &__block
+      display: flex
+      justify-content: space-around
+      align-items: center
+      margin-bottom: 30px
+  //polishing
 .polishing-image
   width: 260px
+
+  //powertool
+.powertool
+  &-catalogue
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    &_item
+      width: 270px
+      min-height: 395px
+      padding: 28px 33px 28px 33px
+      margin-bottom: 32px
+      background: #C4C4C4
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25)
+      border-radius: 8px
+      position: relative
+    &_img
+      width: 100%
+      margin-bottom: 20px
+    &_name
+      font-weight: 500
+      font-size: 16px
+      line-height: 19px
+      text-align: center
+  &-link
+    padding: 28px 55px
+    margin-bottom: 28px
+    background-color: $primary
+    color: white
+    cursor: pointer
+    border-radius: 10px
+    font-size: 18px
+    line-height: 48%
+    display: inline-block
+    position: absolute
+    bottom: 0
+
+  //disc
+.disc, .cilinder, .cup, .conical, .brush, .end-brush, .polymer-brush, .machine-brush
+  &-catalogue
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+    &_item
+      width: 30%
+      min-height: 485px
+      padding: 28px 33px 28px 33px
+      margin-bottom: 32px
+      background: #C4C4C4
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25)
+      border-radius: 8px
+      position: relative
+    &_title
+      text-align: center
+      margin-bottom: 10px
+      line-height: 110%
+    &_img
+      display: block
+      margin: 0 auto
+      margin-bottom: 15px
+    &_text
+      font-size: 19px
+  &-link
+    text-align: center
+    display: inline-block
+    padding: 28px 55px
+    margin-bottom: 28px
+    background-color: $primary
+    color: white
+    cursor: pointer
+    border-radius: 10px
+    font-size: 18px
+    line-height: 48%
+    position: absolute
+    bottom: 0
+    left: 25%

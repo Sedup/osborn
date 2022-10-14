@@ -4,10 +4,10 @@
    <div class="container">
    <ul class="breadcrumb-list">
      <li class="breadcrumb-list__item">
-       <a href="/index.php" class="breadcrumb-list__link">Главная</a>
+       <a href="/index.php" class="breadcrumb-list__link">Головна</a>
      </li>
      <li class="breadcrumb-list-item">
-      Продукты
+      Продукти
      </li>
    </ul>
   </div>
@@ -16,26 +16,26 @@
 <div class="container">
 <nav class="products-categories">
   <h2 class="products-categories__title">
-    Продукты
+    Продукти
   </h2>
   <div class="products-buttons">
     <button class="products-button products-button__roller" data-target="#roller">
-      Спиральные роликовые щётки и валки
+      Спіральні роликові щітки та валки
     </button>
     <button class="products-button products-button__perforated" data-target="#perforated">
-      Перфорированные нестандартные щетки
+      Перфоровані нестандартні щітки
     </button>
     <button class="products-button products-button__powertool" data-target="#powertool">
-      Щетки для электроинструмента и оборудования
+      Щітки для електроінструменту та обладнання
     </button>
-    <button class="products-button products-button__broomate"  data-target="#broomate">
-      Щетки для уборки больших площадей Broomate
+    <button class="products-button products-button__broomate" data-target="#broomate">
+      Щітки для збирання великих площ Broomate
     </button>
-    <button class="products-button products-button__industrial">
-      Щеточные уплотнители Промышленные уплотнители
+    <button class="products-button products-button__industrial" data-target="#industrial">
+      Щіточні ущільнювачі Промислові ущільнювачі
     </button>
     <button class="products-button products-button__polishing" data-target="#polishing">
-      Полировальные круги и пасты
+      Полірувальні кола та пасти
     </button>
   </div>
 </nav>
@@ -49,13 +49,14 @@
   <!-- perforated -->
   <?php include '../pages/parts/perforated.php'; ?>
 
+  <!-- powertool -->
+  <?php include '../pages/parts/powertool.php'; ?>
+
+  <!-- broomate -->
+  <?php include '../pages/parts/industrial.php'; ?>
+
   <!-- broomate -->
   <?php include '../pages/parts/broomate.php'; ?>
-
-  <!-- tools -->
-  <div class="products-item products-item_perforated" id="powertool">
-    Щётки для электроинструмента
-  </div>
 
   <!-- polishing -->
   <?php include '../pages/parts/polishing.php'; ?>

@@ -1,13 +1,13 @@
 <div class="products-item products-item__broomate" id="broomate">
     <div class="container">
         <h2 class="product-description__top--title">
-            Щетки для уборки больших площадей Broomate
+            Щітки для збирання великих площ Broomate
         </h2>
         <p class="product-description__top--intro">
-            Мы предлагаем уникальное и радикальное решение для сельскохозяйственных и промышленных предприятий - щетки для уборки больших площадей Broomate.        
+            Ми пропонуємо унікальне та радикальне рішення для сільськогосподарських та промислових підприємств – щітки для прибирання великих площ Broomate.        
         </p>
         <p class="product-description__top--intro"> 
-            Broomate состоит из 11 полосовых щеток, собранных под 5-милиметровым капотом из оцинкованной стали и крепится на вилы погрузчика или сельскохозяйствнную технику.   
+            Broomate складається з 11 смугових щіток, зібраних під 5-міліметровим капотом з оцинкованої сталі та кріпиться на вила навантажувача або сільськогосподарську техніку.  
         </p>
         <div class="broomate-description">
 
@@ -15,16 +15,16 @@
             <div class="broomate-description__block">
                 <div class="broomate-description__block--text">
                     <p class="broomate-description__text">
-                        Работа данными щетками удивительно проста, щеточные полосы могут быть заменены поотдельности. Так как конструкия не имеет электрических/подвижных частей и  не подвержена дефектам.
+                        Робота цими щітками напрочуд проста, щіткові смуги можуть бути замінені окремо. Так як конструкія не має електричних/рухливих частин і не схильна до дефектів.
                     </p>
-                    <p class="broomate-listname">Применение:</p>
+                    <p class="broomate-listname">Застосування:</p>
                     <ul class="broomate-list__first">
-                        <li class="broomate-list__item"><span>строительные площадки,</span></li>
+                        <li class="broomate-list__item"><span>будівельні майданчики,</span></li>
                         <li class="broomate-list__item"><span>склады,</span></li>
-                        <li class="broomate-list__item"><span>карьеры,</span></li>
-                        <li class="broomate-list__item"><span>животноводческиу фермы,</span></li>
-                        <li class="broomate-list__item"><span>заводы - для уборки отходов производства, 
-                            мусора, листьев, снега, грязи и прочего.</span></li>
+                        <li class="broomate-list__item"><span>кар'єри,</span></li>
+                        <li class="broomate-list__item"><span>тваринницькі ферми,</span></li>
+                        <li class="broomate-list__item"><span>заводи - для збирання відходів виробництва,
+                             сміття, листя, снігу, бруду та іншого.</span></li>
                     </ul>
                 </div>
     
@@ -60,16 +60,16 @@
 
                 <div class="broomate-description__block--text">
                     <h3 class="broomate-description__title">
-                        Преимущества щеток Broomate:
+                        Переваги щіток Broomate:
                     </h3>
                     <ol class="broomate-list__second">
-                        <li class="broomate-list__item"><span>Для уборки территории и больших площадей.
-                            Максимальная производительность подметания.</span></li>
-                        <li class="broomate-list__item"><span>Универсальны и просты в применении. Применяются на обычном погрузчике.</span></li>
-                        <li class="broomate-list__item"><span>Сменить изношенные щетки легко и просто!</span></li>
+                        <li class="broomate-list__item"><span>Для прибирання території та великих площ.
+                            Максимальна продуктивність підмітання.</span></li>
+                        <li class="broomate-list__item"><span>Універсальні та прості у застосуванні. Застосовуються на звичайному навантажувачі.</span></li>
+                        <li class="broomate-list__item"><span>Змінити зношені щітки легко та просто!</span></li>
                     </ol>
                     <p class="broomate-description__text">
-                        За эту инновационную разработку. компания Osborn получила в награду золотую медаль от  журнала Zemědělský Týdeník на крупной агропромышленной выставке в Чехии, г .Брно.
+                        За цю інноваційну розробку. компанія Osborn здобула в нагороду золоту медаль від журналу Zemedelský Týdeník на великій агропромисловій виставці в Чехії, м. Брно.
                     </p>
                 </div>
             </div>
@@ -77,9 +77,9 @@
             <table class="products-table">
                 <tr>
                     <th>Тип</th>
-                    <th>Ряды щеток</th>
-                    <th>Щетки, мм</th>
-                    <th>Код заказа</th>
+                    <th>Ряди щіток</th>
+                    <th>Щітки, мм</th>
+                    <th>Код замовлення</th>
                 </tr>
                 <tr>
                     <td>Megamate</td>

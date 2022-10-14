@@ -11,22 +11,22 @@
         <div class="footer-links">
           <ul class="footer-links__list">
             <li class="footer-links__list--item">
-              <a href="#" class="footer-links__link">О компании</a>
+              <a href="#" class="footer-links__link">Про компанію</a>
             </li>
             <li class="footer-links__list--item">
-              <a href="#" class="footer-links__link">Продукция</a>
+              <a href="#" class="footer-links__link">Продукція</a>
+            </li>
+            <!-- <li class="footer-links__list--item">
+              <a href="#" class="footer-links__link">Галузі та застосування</a>
+            </li> -->
+            <li class="footer-links__list--item">
+              <a href="#" class="footer-links__link">Технічна информація</a>
             </li>
             <li class="footer-links__list--item">
-              <a href="#" class="footer-links__link">Отрасли и применение</a>
+              <a href="#" class="footer-links__link">Завантажити каталог</a>
             </li>
             <li class="footer-links__list--item">
-              <a href="#" class="footer-links__link">Техническая информация</a>
-            </li>
-            <li class="footer-links__list--item">
-              <a href="#" class="footer-links__link">Скачать каталог</a>
-            </li>
-            <li class="footer-links__list--item">
-              <a href="#" class="footer-links__link">Контакты</a>
+              <a href="#" class="footer-links__link">Контакти</a>
             </li>
           </ul>
         </div>
@@ -37,32 +37,32 @@
             <a href="https://instruments.zp.ua" class="footer-contacts__link" target="_blank">instruments.zp.ua</a>
           </div>
           <div class="footer-description">
-            ООО ТД “Инструмент Спектр" Официальный дистрибьютор в Украине
+            ТОВ ТД "Інструмент Спектр" Офіційний дистриб'ютор в Україні
           </div>
           <div class="footer-phones">
             <img src="/img/icons/phone-white.svg" alt="Icon: phone" class="footer-icon">
             <ul class="footer-phones__list">
-              <li class="footer-phones__list--item">
+              <!-- <li class="footer-phones__list--item">
               <a href="tel:+380617081848" class="footer-phone">061 708 18 48</a>
-              </li>
+              </li> -->
               <li class="footer-phones__list--item">
               <a href="tel:+380668747405" class="footer-phone">066 874 74 05</a>
               </li>
               <li class="footer-phones__list--item">
               <a href="tel:+380678943672" class="footer-phone">067 894 36 72</a>
               </li>
-              <li class="footer-phones__list--item">
+              <!-- <li class="footer-phones__list--item">
               <a href="tel:+380636918134" class="footer-phone">063 691 81 34</a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
         <!-- /.footer-contacts -->
         <div class="footer-form">
           <p class="footer-privacy">
-            Использование материалов данного сайта допускается только при наличии прямой обратной ссылки на источник:<br>
+            Використання матеріалів даного сайту допускається лише за наявності прямого зворотного посилання на джерело:<br>
           </p>
-          <a href="https://osborn-brushes.com.ua" class="privacy-link">osborn-brushes.com.ua</a>
+          <a href="https://osborn.com.ua" class="privacy-link">osborn.com.ua</a>
         </div>
         <!-- /.footer-form -->
       </div>
